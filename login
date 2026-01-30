@@ -235,7 +235,7 @@ body:has(#loginPage:not(.hide)) .standalonePage {
 
 /* Custom text for the "Remember me" checkbox label. */
 #loginPage .checkboxLabel::after {
-  content: "Password amnesia preventer! 🧠";
+  content: "Remember me";
   font-size: 15px !important; /* Ensure this doesn't inherit font-size: 0 */
   font-family: inherit;
   color: #fff;
@@ -281,7 +281,7 @@ body:has(#loginPage:not(.hide)) .standalonePage {
 
 /* Custom text and styling for the "Sign In" (submit) button. */
 #loginPage button.emby-button[type="submit"] span::after {
-  content: "Sign in! 🔓" !important;
+  content: "Sign in" !important;
   font-size: 16px !important;
   font-family: inherit;
 }
@@ -300,7 +300,7 @@ body:has(#loginPage:not(.hide)) .standalonePage {
 
 /* Custom text and styling for the "Cancel" button. */
 #loginPage button.emby-button[type="button"].btnCancel span::after {
-  content: "Abort Mission! ☠️" !important;
+  content: "Back" !important;
   font-size: 16px !important;
   font-family: inherit;
 }
@@ -319,7 +319,7 @@ body:has(#loginPage:not(.hide)) .standalonePage {
 
 /* Custom text and styling for the "Quick Connect" button. */
 #loginPage button.emby-button[type="button"].btnQuick span::after {
-  content: "Quick Connect 🔗" !important;
+  content: "Quick Connect" !important;
   font-size: 16px !important;
   font-family: inherit;
   color: var(--text-color) !important;
