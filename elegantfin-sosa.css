@@ -1,0 +1,43 @@
+@import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/ElegantFin-jellyfin-theme-build-latest-minified.css");
+:root{
+  --loginPageBgUrl: url("<192.168.0.154:8096>/Branding/Splashscreen?format=webp&foregroundLayer=1&quality=33&width=3840&height=2160&blur=2");
+}
+:root{
+  --extraCardButtonsVisibility: block;
+}
+:root{
+  --overlayPlayButtonPosition: 50%;
+}
+  :root{
+    --cardHoverEffect: none;
+  }
+  :root{
+    --libraryLabelVisibility: block;
+  }
+u/import url("https://cdn.jsdelivr.net/gh/lscambo13/ElegantFin@main/Theme/assets/add-ons/media-bar-plugin-support-latest-min.css");
+:root{
+  /* example */
+  --appBarHeight: 4.6em;
+}
+
+:root {
+  --logo: url("https://raw.githubusercontent.com/becksosa/host/refs/heads/main/sosastudiospirate640x271.png");
+}
+
+.pageTitleWithDefaultLogo {
+    background-image: var(--logo) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.layout-tv .pageTitleWithLogo, .layout-desktop .pageTitleWithLogo {
+    margin-left: 25px !important;
+    height: 60px !important;
+    width: 140px !important;
+    margin-top: 30px !important;
+}
+
+.layout-mobile .pageTitleWithLogo {
+    height: 30px !important;
+    width: 100px !important;
+}
